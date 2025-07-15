@@ -331,6 +331,7 @@
 
 /area/ruin/space/has_grav/deepstorage/lobby/med
 	name = "VI Deepstorage Medbay Lobby"
+	icon_state = "med"
 
 /area/ruin/space/has_grav/deepstorage/med
 	name = "VI Deepstorage Medbay"
