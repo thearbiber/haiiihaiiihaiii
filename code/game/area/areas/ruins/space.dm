@@ -353,7 +353,7 @@
 	icon_state = "kitchen"
 
 /area/ruin/space/has_grav/deepstorage/security/lobby
-	name = "VI Deepstorage Director Lobby
+	name = "VI Deepstorage Director Lobby"
 
 /area/ruin/space/has_grav/deepstorage/security/office
 	name = "VI Deepstorage Director Office"
