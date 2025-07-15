@@ -346,7 +346,7 @@
 
 /area/ruin/space/has_grav/deepstorage/crewquarters
 	name = "VI Deepstorage Crew Quarters"
-	icon_state = "crew_quarters
+	icon_state = "crew_quarters"
 
 /area/ruin/space/has_grav/deepstorage/canteen
 	name = "VI Deepstorage Canteen"
