@@ -295,15 +295,15 @@
 
 /area/ruin/space/shuttle1
 	name = "Frontiersmen Shuttle"
-	icon_state = "hallC"
+	icon_state = "red"
 
 /area/ruin/space/shuttle2
 	name = "Frontiersmen Shuttle"
-	icon_state = "hallC"
+	icon_state = "red"
 
 /area/ruin/space/shuttle3
 	name = "Frontiersmen Shuttle"
-	icon_state = "hallC"
+	icon_state = "red"
 
 /area/ruin/space/has_grav/deepstorage/cargo
 	name = "VI Deepstorage Cargo"
