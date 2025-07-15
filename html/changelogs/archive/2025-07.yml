@@ -46,3 +46,14 @@
       from a size restriction
   - bugfix: Fixed Donut sprite and re-added toast recipes. Slightly decreased jelly
       consumption
+2025-07-14:
+  Erikafox:
+  - bugfix: you can now properly tell when someone has an excessive amount of wet
+      stacks
+  - bugfix: the miras ration is real
+2025-07-15:
+  Ossa88:
+  - bugfix: Coffee Supplies have had their UPC codes changed to become Civilian Products.
+  - bugfix: Smart Fridge and Grinder boards have had their UPC codes changed to Machinery.
+  TheArbiber, GeneralThrax:
+  - rscadd: ponchos
