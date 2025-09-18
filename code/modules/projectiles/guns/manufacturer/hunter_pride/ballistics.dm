@@ -678,7 +678,7 @@ EMPTY_GUN_HELPER(shotgun/flamingarrow/conflagration)
 	w_class = WEIGHT_CLASS_BULKY
 	force = 20 //heavy ass elephant gun, why wouldnt it be
 	recoil = 4
-	pb_knockback = 12
+	pb_knockback = 122
 	fire_sound = 'sound/weapons/gun/shotgun/quadfire.ogg'
 	rack_sound = 'sound/weapons/gun/shotgun/quadrack.ogg'
 	load_sound = 'sound/weapons/gun/shotgun/quadinsert.ogg'
