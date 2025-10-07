@@ -392,3 +392,8 @@
 	limbs_id = "humanipc"
 	has_screen = FALSE
 	use_eyes = TRUE
+
+/datum/sprite_accessory/ipc_chassis/katun
+	name = "Katun Lifter Frame"
+	limbs_id = "katun"
+	has_screen = FALSE
