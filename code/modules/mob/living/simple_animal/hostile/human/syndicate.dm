@@ -441,14 +441,15 @@
 /mob/living/simple_animal/hostile/human/ramzi/ranged/space/stormtrooper/sniper
 	name = "Ramzi Clique Cleaner"
 	desc = "Black and red, black and red, and you're dead all over. They've already seen you, and are training their next shot with practiced distaste."
+	rapid = 1
 	minimum_distance = 7
 	vision_range = 20
 	aggro_vision_range = 14
 	icon_state = "syndicate_shotgun"
 	icon_living = "syndicate_shotgun"
-	casingtype = /obj/item/ammo_casing/p50
-	l_hand = /obj/item/gun/ballistic/automatic/marksman/taipan
-	projectilesound = 'sound/weapons/gun/sniper/shot.ogg'
+	casingtype = /obj/item/ammo_casing/a65
+	l_hand = /obj/item/gun/ballistic/automatic/marksman/boomslang
+	projectilesound = 'sound/weapons/gun/sniper/cmf90.ogg'
 
 ///////////////Misc////////////
 
