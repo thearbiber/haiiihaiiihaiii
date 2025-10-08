@@ -447,7 +447,7 @@
 	aggro_vision_range = 14
 	icon_state = "syndicate_shotgun"
 	icon_living = "syndicate_shotgun"
-	casingtype = /obj/item/ammo_casing/a65
+	casingtype = /obj/item/ammo_casing/a65clip
 	l_hand = /obj/item/gun/ballistic/automatic/marksman/boomslang
 	projectilesound = 'sound/weapons/gun/sniper/cmf90.ogg'
 
