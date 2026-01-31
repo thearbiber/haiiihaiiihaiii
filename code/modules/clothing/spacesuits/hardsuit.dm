@@ -280,7 +280,7 @@
 
 /obj/item/clothing/suit/space/hardsuit/stealth
 	name = "INF-95 Tactical Hardsuit"
-	desc = "A prototype hardsuit created at the tail-end of the ICW, designed for infiltration and maneuverability over protection. Despite it being well recieved, production ended shortly after the war. A suprising amount are kept in good condition, often on collectors racks."
+	desc = "A prototype hardsuit created at the tail-end of the ICW, designed for infiltration and maneuverability over protection. Despite it being well-received, production ended shortly after the war. A surpising amount are kept in good condition, often on collector's racks."
 	icon_state = "hardsuit-stealth"
 	item_state = "stealth_hardsuit"
 	max_heat_protection_temperature = FIRE_SUIT_MAX_TEMP_PROTECT
