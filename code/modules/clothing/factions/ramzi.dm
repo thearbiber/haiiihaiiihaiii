@@ -126,8 +126,8 @@
 /obj/item/clothing/head/helmet/space/hardsuit/stealth/ramzi
 	name = "INF-RC Tactical Hardsuit helmet"
 	desc = "A Prototype hardsuit's helmet that has seen better days. A viewport has been replaced, in the process rendering the night vision inoperable."
-	icon = 'icons/obj/clothing/faction/ramzi/suits.dmi'
-	mob_overlay_icon = 'icons/mob/clothing/faction/ramzi/suits.dmi'
+	icon = 'icons/obj/clothing/faction/ramzi/head.dmi'
+	mob_overlay_icon = 'icons/mob/clothing/faction/ramzi/head.dmi'
 	icon_state = "hardsuit0-ramsee"
 	item_state = "hardsuit0-ramsee"
 	hardsuit_type = "ramsee"
