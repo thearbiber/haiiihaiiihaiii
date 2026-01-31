@@ -123,6 +123,25 @@
 	jetpack = null
 	supports_variations = DIGITIGRADE_VARIATION | KEPORI_VARIATION | VOX_VARIATION
 
+/obj/item/clothing/head/helmet/space/hardsuit/stealth/ramzi
+	name = "INF-RC Tactical Hardsuit helmet"
+	desc = "A Prototype hardsuit's helmet that has seen better days. A viewport has been replaced, in the process rendering the night vision inoperable."
+	icon_state = "hardsuit0-ramsee"
+	item_state = "ramsee_helm"
+	hardsuit_type = "ramsee"
+	armor = list("melee" = 30, "bullet" = 25, "laser" = 20, "energy" = 40, "bomb" = 10, "bio" = 100, "rad" = 50, "fire" = 75, "acid" = 75, "wound" = 20)
+	flash_protect = null
+	lighting_alpha = null
+
+/obj/item/clothing/suit/space/hardsuit/stealth/ramzi
+	name = "INF-RC Tactical Hardsuit"
+	desc = "A prototype hardsuit refitted and repaired by the Ramzi Clique. Many inner components appear to be broken, yet some armor has been stripped off to retain mobility."
+	icon_state = "hardsuit-ramsee"
+	item_state = "ramsee_hardsuit"
+	armor = list("melee" = 30, "bullet" = 25, "laser" = 20, "energy" = 40, "bomb" = 10, "bio" = 100, "rad" = 50, "fire" = 75, "acid" = 75, "wound" = 20)
+	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/stealth/ramzi
+
+
 //Ramzi Elite Suit
 /obj/item/clothing/head/helmet/space/hardsuit/syndi/ramzi/elite
 	name = "elite rust-red hardsuit helmet"
