@@ -267,7 +267,7 @@
 	//Infiltrator hardsuit
 /obj/item/clothing/head/helmet/space/hardsuit/stealth
 	name = "INF-95 Tactical Hardsuit helmet"
-	desc = "A Prototype hardsuit's helmet created at the tail end of the ICW, designed for infiltration and maneueverability over protection. Comes with superb field of view and integrated night vision."
+	desc = "A Prototype hardsuit's helmet created at the tail end of the ICW, Designed for infiltration and maneueverability over protection. Comes with superb field of view and integrated night vision."
 	icon_state = "hardsuit0-stealth"
 	item_state = "stealth_helm"
 	hardsuit_type = "stealth"
@@ -280,7 +280,7 @@
 
 /obj/item/clothing/suit/space/hardsuit/stealth
 	name = "INF-95 Tactical Hardsuit"
-	desc = "A prototype hardsuit created at the tail-end of the ICW, designed for infiltration and maneuverability over protection. Despite it being well-received, production ended shortly after the war. A surpising amount are kept in good condition, often on collector's racks."
+	desc = "A prototype hardsuit created at the tail-end of the ICW, for the Gorlex Marauders. Designed for infiltration and maneuverability over protection. Despite it being well-received, production ended shortly after the war. A surpising amount are kept in good condition, often on collector's racks."
 	icon_state = "hardsuit-stealth"
 	item_state = "stealth_hardsuit"
 	max_heat_protection_temperature = FIRE_SUIT_MAX_TEMP_PROTECT
