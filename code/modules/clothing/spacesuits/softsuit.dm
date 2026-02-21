@@ -46,7 +46,6 @@
 	armor = list("melee" = 10, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 0, "bio" = 100, "rad" = 50, "fire" = 80, "acid" = 70, "wound" = 5) //less wound armor. give em the fokker special
 	visor_flags_inv = HIDEMASK
 	visor_flags = STOPSPRESSUREDAMAGE | ALLOWINTERNALS
-	supports_variations = SNOUTED_VARIATION
 
 /obj/item/clothing/head/helmet/space/pilot/attack_self(mob/user) //pilot helmet toggle
 	if(!isturf(user.loc))
