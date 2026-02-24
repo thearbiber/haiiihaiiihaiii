@@ -128,3 +128,6 @@
   SapphicOverload:
   - bugfix: Fixed Gorlex Hardliners receiving a 0.3% discount on cloaking devices
       instead of 30%
+2026-02-24:
+  OnlineGirlfriend:
+  - spellcheck: pavement
