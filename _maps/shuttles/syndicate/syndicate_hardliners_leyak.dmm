@@ -920,19 +920,6 @@
 	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/security)
-"jU" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/mono/white,
-/area/ship/hallway/central)
 "kf" = (
 /obj/effect/turf_decal/corner/opaque/syndiered/border{
 	dir = 1
@@ -1372,14 +1359,6 @@
 	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/bridge)
-"oh" = (
-/obj/effect/turf_decal/siding/thinplating,
-/obj/effect/turf_decal/siding/thinplating{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/tech/techmaint,
-/area/ship/cargo)
 "oP" = (
 /obj/machinery/shower{
 	pixel_y = 20
@@ -1654,11 +1633,11 @@
 /obj/item/clothing/gloves/combat,
 /obj/item/megaphone,
 /obj/item/radio/intercom/directional/east,
-/obj/item/radio/headset/syndicate/alt/cybersun,
 /obj/item/storage/belt/security/webbing/hardliners/alt{
 	pixel_x = 4;
 	pixel_y = -1
 	},
+/obj/item/radio/headset/syndicate/alt/captain/cybersun,
 /turf/open/floor/plasteel/tech,
 /area/ship/security)
 "sM" = (
@@ -1721,6 +1700,19 @@
 	},
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/security)
+"ul" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/mono/white,
+/area/ship/hallway/central)
 "uo" = (
 /obj/effect/turf_decal/isf_big/four,
 /obj/structure/cable{
@@ -2239,8 +2231,6 @@
 /obj/effect/turf_decal/corner/opaque/syndiered/border{
 	dir = 5
 	},
-/obj/item/radio/headset/syndicate/alt,
-/obj/item/radio/headset/syndicate/alt,
 /obj/machinery/light/small/directional/south,
 /obj/machinery/light_switch{
 	pixel_x = 10;
@@ -2253,6 +2243,8 @@
 	name = "supply locker";
 	req_access = list(1)
 	},
+/obj/item/radio/headset/syndicate/alt/cybersun,
+/obj/item/radio/headset/syndicate/alt/cybersun,
 /turf/open/floor/plasteel/mono/white,
 /area/ship/security)
 "Be" = (
@@ -2542,13 +2534,6 @@
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/engines)
-"Ff" = (
-/obj/effect/turf_decal/corner/opaque/syndiered/border{
-	dir = 1
-	},
-/obj/effect/turf_decal/siding/black,
-/turf/open/floor/plasteel/mono/white,
-/area/ship/hallway/central)
 "Fl" = (
 /obj/machinery/suit_storage_unit/inherit/industrial,
 /obj/item/clothing/suit/space/syndicate/surplus,
@@ -2626,7 +2611,6 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/siding/black,
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/mono/white,
 /area/ship/hallway/central)
 "Gl" = (
@@ -2839,7 +2823,7 @@
 	pixel_y = 4
 	},
 /obj/item/melee/energy/flyssa,
-/obj/item/radio/headset/syndicate/alt/cybersun,
+/obj/item/radio/headset/syndicate/alt/captain/cybersun,
 /turf/open/floor/plasteel/patterned/brushed,
 /area/ship/bridge)
 "Jv" = (
@@ -3969,6 +3953,14 @@
 	},
 /turf/open/floor/plating,
 /area/ship/cargo)
+"Vh" = (
+/obj/effect/turf_decal/siding/thinplating,
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/tech/techmaint,
+/area/ship/cargo)
 "Vj" = (
 /obj/effect/turf_decal/trimline/opaque/syndiered/end,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
@@ -4059,6 +4051,14 @@
 /obj/item/radio/intercom/directional/south,
 /turf/open/floor/plasteel/patterned/brushed,
 /area/ship/crew/canteen)
+"Xx" = (
+/obj/effect/turf_decal/corner/opaque/syndiered/border{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/black,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plasteel/mono/white,
+/area/ship/hallway/central)
 "Xz" = (
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/line{
 	dir = 8
@@ -4787,7 +4787,7 @@ Mp
 zF
 zF
 zF
-Ff
+Gj
 bP
 mM
 Su
@@ -4865,7 +4865,7 @@ GQ
 og
 GQ
 GQ
-Gj
+Xx
 Eq
 Ku
 zF
@@ -4972,7 +4972,7 @@ Mp
 vm
 PK
 zF
-jU
+ul
 Nt
 GQ
 Ld
@@ -5120,7 +5120,7 @@ Wd
 WQ
 dZ
 Ll
-oh
+Vh
 Tr
 Sf
 Mp
