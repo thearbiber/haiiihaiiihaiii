@@ -292,7 +292,7 @@
 /datum/supply_pack/spacesuits/ranger_hardsuit
 	name = "Ranger Hardsuit Crate"
 	desc = "A recent addition to the field market due to limited numbers, the ranger hardsuit specializes in lightweight action and recon. The helm is fitted with integrated night vision."
-	cost = 5750
+	cost = 5500
 	contains = list(/obj/item/clothing/suit/space/hardsuit/stealth/inteq)
 	crate_name = "ranger hardsuit crate"
 	crate_type = /obj/structure/closet/crate/secure/gear
