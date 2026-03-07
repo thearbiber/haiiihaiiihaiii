@@ -255,12 +255,12 @@
 	faction_discount = 0
 	faction_locked = TRUE
 
-/datum/supply_pack/spacesuits/interloper_hardsuit
-	name = "Interloper Hardsuit Crate"
+/datum/supply_pack/spacesuits/magnetar_hardsuit
+	name = "Magnetar recon hardsuit Crate"
 	desc = "Cybersuns specialized stealth hardsuit, offering supreme mobility and ease of use. Makes up for its lackluster armor with speed and integrated night vision."
-	cost = 5000
-	contains = list(/obj/item/clothing/suit/space/hardsuit/syndi/cybersun)
-	crate_name = "neutron star hardsuit crate"
+	cost = 4500
+	contains = list(/obj/item/clothing/suit/space/hardsuit/stealth/cybersun)
+	crate_name = "Magnetar recon hardsuit crate"
 	crate_type = /obj/structure/closet/crate/secure/gear
 	faction = /datum/faction/syndicate/cybersun
 	faction_discount = 0
@@ -292,7 +292,7 @@
 /datum/supply_pack/spacesuits/ranger_hardsuit
 	name = "Ranger Hardsuit Crate"
 	desc = "A recent addition to the field market due to limited numbers, the ranger hardsuit specializes in lightweight action and recon. The helm is fitted with integrated night vision."
-	cost = 5500
+	cost = 4500
 	contains = list(/obj/item/clothing/suit/space/hardsuit/stealth/inteq)
 	crate_name = "ranger hardsuit crate"
 	crate_type = /obj/structure/closet/crate/secure/gear

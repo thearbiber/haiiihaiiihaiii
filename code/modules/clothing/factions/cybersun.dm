@@ -352,8 +352,8 @@
 
 //Cybersun infiltrator hardsuit
 /obj/item/clothing/suit/space/hardsuit/stealth/cybersun
-	name = "INF-\"Interloper\"  hardsuit"
-	desc = "A successor suit to the original infiltrator hardsuit, the Interloper minimizes its cost while keeping full functionality. While it has entered mass production, most models are still reserved for small teams and private use."
+	name = "\improper Magnetar recon hardsuit"
+	desc = "Injection-formed crystalline titanium forms the plates of this lightweight hardsuit, the joints protected by a thin weave of pressure-resistant self-repairing kevlars. A rarity on the field, as Cybersun does not sell them to the open market, instead keeping it for their own service."
 	icon = 'icons/obj/clothing/faction/cybersun/suits.dmi'
 	mob_overlay_icon = 'icons/mob/clothing/faction/cybersun/suits.dmi'
 	icon_state = "hardsuit-cyberstealth"
@@ -361,8 +361,8 @@
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/stealth/cybersun
 
 /obj/item/clothing/head/helmet/space/hardsuit/stealth/cybersun
-	name = "INF-\"Interloper\" hardsuit helmet"
-	desc = "A lightweight hardsuit helmet with a sleek slit visor, with integrated night vision."
+	name = "\improper Magnetar hardsuit helmet"
+	desc = "Thin, slick plates part into a visor of light reflective material. Sensors aboard function as a nightvision unit"
 	icon = 'icons/obj/clothing/faction/cybersun/head.dmi'
 	mob_overlay_icon = 'icons/mob/clothing/faction/cybersun/head.dmi'
 	icon_state = "hardsuit0-cyberstealth"
