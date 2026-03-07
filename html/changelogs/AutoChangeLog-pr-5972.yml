@@ -1,0 +1,4 @@
+author: PositiveEntropy
+changes:
+  - {bugfix: Messy Chop properly shows the full eye.}
+delete-after: true
