@@ -356,7 +356,7 @@
 	desc = "A successor suit to the original infiltrator hardsuit, the Interloper minimizes its cost while keeping full functionality. While it has entered mass production, most models are still reserved for small teams and private use."
 	icon = 'icons/obj/clothing/faction/cybersun/suits.dmi'
 	mob_overlay_icon = 'icons/mob/clothing/faction/cybersun/suits.dmi'
-	icon_state = "hardsuit-ranger"
+	icon_state = "hardsuit-cyberstealth"
 	hardsuit_type = "cyberstealth"
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/stealth/cybersun
 
