@@ -1,4 +1,0 @@
-author: firebudgy
-changes:
-  - {balance: Reverted undocumented changes to the Neutron Star hardsuit.}
-delete-after: true
