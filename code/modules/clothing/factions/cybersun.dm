@@ -310,7 +310,7 @@
 	icon_state = "hardsuit-collapsar"
 	hardsuit_type = "collapsar"
 	armor = list("melee" = 45, "bullet" = 45, "laser" = 45, "energy" = 40, "bomb" = 50, "bio" = 100, "rad" = 65, "fire" = 75, "acid" = 40, "wound" = 30)
-	slowdown = .5
+	slowdown = 0.5
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/collapsar
 	icon = 'icons/obj/clothing/faction/cybersun/suits.dmi'
 	mob_overlay_icon = 'icons/mob/clothing/faction/cybersun/suits.dmi'
