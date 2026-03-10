@@ -227,7 +227,7 @@
 
 /obj/item/clothing/head/helmet/space/hardsuit/stealth/inteq
 	name = "Inteq Ranger hardsuit helmet"
-	desc = "A lightweight hardsuit helm with integrated night vision in its monoeye. A veil has been attached to the top, to minimize reflectiveness and disrupt silhoutte."
+	desc = "A lightweight hardsuit helm with integrated night vision in its vertical camera setup."
 	icon = 'icons/obj/clothing/faction/inteq/hats.dmi'
 	mob_overlay_icon = 'icons/mob/clothing/faction/inteq/hats.dmi'
 	icon_state = "hardsuit0-ranger"
