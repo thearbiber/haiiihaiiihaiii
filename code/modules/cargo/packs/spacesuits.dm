@@ -255,6 +255,28 @@
 	faction_discount = 0
 	faction_locked = TRUE
 
+/datum/supply_pack/spacesuits/collapsar_hardsuit
+	name = "Collapsar Assault Hardsuit Crate"
+	desc = "Cybersuns all-rounder combat hardsuit, the collapsar proves efficient in every field. "
+	cost = 5000
+	contains = list(/obj/item/clothing/suit/space/hardsuit/collapsar)
+	crate_name = "Collapsar hardsuit crate"
+	crate_type = /obj/structure/closet/crate/secure/gear
+	faction = /datum/faction/syndicate/cybersun
+	faction_discount = 0
+	faction_locked = TRUE
+
+/datum/supply_pack/spacesuits/retrieval_hardsuit
+	name = "Collapsar Retrieval Hardsuit Crate"
+	desc = "Cybersuns all-rounder combat hardsuit, this collapsar variant is in the colors of the trauma team."
+	cost = 5000
+	contains = list(/obj/item/clothing/suit/space/hardsuit/collapsar/paramed)
+	crate_name = "Collapsar hardsuit crate"
+	crate_type = /obj/structure/closet/crate/secure/gear
+	faction = /datum/faction/syndicate/cybersun
+	faction_discount = 0
+	faction_locked = TRUE
+
 /datum/supply_pack/spacesuits/cmt_hardsuit
 	name = "CMT Hardsuit Crate"
 	desc = "A reconfiguring of the Neutron Star hardsuit resulted in the CMT, or Cybersun Medical Technician hardsuit. The CMT protects against biological hazards, light weaponsfire, and the usual hazards of space."
