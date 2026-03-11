@@ -52,6 +52,14 @@
 	roll_down = FALSE
 	//supports_variations = DIGITIGRADE_VARIATION
 
+/obj/item/clothing/under/cybersun/sneak
+	name = "cybersun sneaksuit"
+	desc = "A form fitting shirt and pants combo, minimizing friction and retaining comfort."
+	icon_state = "cybersun_sneaksuit"
+	roll_sleeves = TRUE
+	roll_down = FALSE
+	supports_variations = DIGITIGRADE_VARIATION
+
 /obj/item/clothing/under/cybersun/suit
 	name = "cybersun suit"
 	desc = "White shirt and suit pants, worn by the many office inhabitants working for Cybersun."
@@ -402,6 +410,7 @@
 
 	unique_reskin = list(
 		"Troubleshooter" = "cybersun_webbing",
-		"Trauma Team" = "trauma_webbing"
+		"Trauma Team" = "cybersun_med_webbing",
+		"Troubleshooter Alt" = "cybersun_webalt",
+		"Trauma Alt" = "cybersun_med_webalt"
 	)
-
