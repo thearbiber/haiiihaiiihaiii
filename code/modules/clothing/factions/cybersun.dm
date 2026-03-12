@@ -53,8 +53,8 @@
 	//supports_variations = DIGITIGRADE_VARIATION
 
 /obj/item/clothing/under/cybersun/sneak
-	name = "cybersun sneaksuit"
-	desc = "A form fitting shirt and pants combo, minimizing friction and retaining comfort."
+	name = "Cybersun sneaksuit"
+	desc = "A tight form-fitting uniform made from a silky metamaterial. It clings to flesh like shadow clings to light. Near frictionless but extremely comfortable."
 	icon_state = "cybersun_sneaksuit"
 	roll_sleeves = TRUE
 	roll_down = FALSE
@@ -314,7 +314,7 @@
 //Cybersun Collapsar hardsuit
 /obj/item/clothing/suit/space/hardsuit/collapsar
 	name = "Cybersun \"Collapsar\" assault hardsuit"
-	desc = "Cybersun's high-grade combat hardsuit, fitted with tight reforming fibers and light alloys. A rarer sight among troubleshooter teams, these suits appearance show a mission to be completed."
+	desc = "Thick plates of flexible plastitanium-kevlar weave with a titanium laminate applied to seal the top make this armor maneuverable and durable. Typically only issued when a fight is expected."
 	icon_state = "hardsuit-collapsar"
 	hardsuit_type = "collapsar"
 	armor = list("melee" = 45, "bullet" = 45, "laser" = 45, "energy" = 40, "bomb" = 50, "bio" = 100, "rad" = 65, "fire" = 75, "acid" = 40, "wound" = 30)
@@ -326,7 +326,7 @@
 
 /obj/item/clothing/head/helmet/space/hardsuit/collapsar
 	name = "Cybersun \"Collapsar\" assault hardsuit helmet"
-	desc = "An armored dome-head helmet rated for all types of enemy fire. Offers a clean field of vision."
+	desc = "Impact resistant plasmaglass is inset with plastitanium to make a durable helmet with clean unassisted field-of-view."
 	icon_state = "hardsuit0-collapsar"
 	hardsuit_type = "collapsar"
 	armor = list("melee" = 45, "bullet" = 45, "laser" = 40, "energy" = 40, "bomb" = 50, "bio" = 100, "rad" = 65, "fire" = 75, "acid" = 40, "wound" = 30)
@@ -335,7 +335,7 @@
 
 /obj/item/clothing/suit/space/hardsuit/collapsar/paramed
 	name = "Cybersun \"Collapsar\" retrieval hardsuit"
-	desc = "A trauma-team variant of Cybersun's Collapsar hardsuit, this version is identical with a different paintjob."
+	desc = "A Collapsar assault hardsuit coated in teal-tinted titanium coverings. Emblematic of the Trauma Team. "
 	icon_state = "hardsuit-collapsmed"
 	hardsuit_type = "collapsmed"
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/collapsar/paramed
