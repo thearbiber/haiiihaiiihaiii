@@ -272,6 +272,8 @@
 	cost = 5000
 	contains = list(/obj/item/clothing/suit/space/hardsuit/collapsar/paramed)
 	crate_name = "Collapsar hardsuit crate"
+	faction_discount = 0
+	faction_locked = TRUE
 
 /datum/supply_pack/spacesuits/magnetar_hardsuit
 	name = "Magnetar recon hardsuit Crate"
