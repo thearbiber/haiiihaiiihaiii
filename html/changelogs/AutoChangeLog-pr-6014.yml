@@ -1,0 +1,5 @@
+author: AnomalousPotato
+changes:
+  - {spellcheck: No longer will you "has look a little pale" in your examine 
+      text}
+delete-after: true
