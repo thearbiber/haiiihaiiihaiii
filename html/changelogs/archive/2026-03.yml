@@ -136,3 +136,10 @@
   - bugfix: Fixed incorrect metabolism values in cyber-stomachs
   Retrino:
   - bugfix: shrike fuel lines
+2026-03-17:
+  '@firebudgy ':
+  - balance: adds command radios and gives them to faction captains
+  Burning02:
+  - rscadd: The Shrikes bridge safe now has a set code on spawn
+  OnlineGirlfriend:
+  - spellcheck: farm_animals.dm
