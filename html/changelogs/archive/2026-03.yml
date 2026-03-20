@@ -150,3 +150,6 @@
   zimon9:
   - rscadd: Added secondary unique action key interaction to toggle firerates or energy
       modes for guns
+2026-03-20:
+  rye-rice:
+  - rscadd: Fixes the docking ports on both the atria and solis
