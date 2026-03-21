@@ -419,7 +419,7 @@
 	name = "Cybersun gas mask"
 	desc = "A protective gas mask manufactured by Cybersun Biodynamics. This model holds in a single reinforced filter built into the front of the mask, minimizing weight and allowing for easier head movement."
 	icon = 'icons/obj/clothing/faction/cybersun/mask.dmi'
-	mob_overlay_icon = 'icons/mob/clothing/faction/cybersum/mask.dmi'
+	mob_overlay_icon = 'icons/mob/clothing/faction/cybersun/mask.dmi'
 	icon_state = "cybersun_gas"
 	item_state = "cybersun_gas"
 	resistance_flags = FIRE_PROOF | ACID_PROOF
