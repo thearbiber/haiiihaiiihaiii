@@ -38,14 +38,19 @@
 
 /obj/item/clothing/head/helmet/space/pilot
 	name = "pilot helmet"
-	icon_state = "space-pilot-plain0"
-	item_state = "space-pilot-plain"
+	icon_state = "space-pilot0"
+	item_state = "space-pilot"
 	desc = "A specialized space helmet designed for exosuit and shuttle pilots. Offers limited impact protection."
-	up = FALSE
-	actions_types = list(/datum/action/item_action/toggle_helmet)
 	armor = list("melee" = 10, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 0, "bio" = 100, "rad" = 50, "fire" = 80, "acid" = 70, "wound" = 5) //less wound armor. give em the fokker special
 	visor_flags_inv = HIDEMASK
 	visor_flags = STOPSPRESSUREDAMAGE | ALLOWINTERNALS
+
+	up = FALSE
+	actions_types = list(/datum/action/item_action/toggle_helmet)
+
+/obj/item/clothing/head/helmet/space/pilot/update_icon_state()
+	icon_state = "space-pilot[up]"
+	return ..()
 
 /obj/item/clothing/head/helmet/space/pilot/attack_self(mob/user) //pilot helmet toggle
 	if(!isturf(user.loc))
