@@ -1,5 +1,0 @@
-author: Apogee-dev
-changes:
-  - {rscadd: Added Makosso-Warra Corporation}
-  - {rscdel: 'Removed Nanotrasen, Inc.'}
-delete-after: true
