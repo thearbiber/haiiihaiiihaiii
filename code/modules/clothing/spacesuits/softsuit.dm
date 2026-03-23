@@ -35,6 +35,22 @@
 	clothing_flags = STOPSPRESSUREDAMAGE | THICKMATERIAL | FAST_EMBARK
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/exo/large
 	supports_variations = DIGITIGRADE_VARIATION
+	unique_reskin = list("navy pilot space suit" = "space-pilot",
+						"surplus pilot space suit" = "space-pilot-surplus",
+						"civilian pilot space suit" = "space-pilot-civvie"
+						)
+	unique_reskin_changes_base_icon_state = TRUE
+	unique_reskin_changes_name = TRUE
+
+/obj/item/clothing/suit/space/pilot/olive
+	name = "surplus pilot space suit"
+	icon_state = "space-pilot-surplus"
+	item_state = "space-pilot-surplus"
+
+/obj/item/clothing/suit/space/pilot/orange
+	name = "civilian pilot space suit"
+	icon_state = "space-pilot-civilian"
+	item_state = "space-pilot-civilian"
 
 /obj/item/clothing/head/helmet/space/pilot
 	name = "pilot helmet"
@@ -44,7 +60,7 @@
 	armor = list("melee" = 10, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 0, "bio" = 100, "rad" = 50, "fire" = 80, "acid" = 70, "wound" = 5) //less wound armor. give em the fokker special
 	visor_flags_inv = HIDEMASK
 	visor_flags = STOPSPRESSUREDAMAGE | ALLOWINTERNALS
-
+	supports_variations = SNOUTED_VARIATION
 	up = FALSE
 	actions_types = list(/datum/action/item_action/toggle_helmet)
 
