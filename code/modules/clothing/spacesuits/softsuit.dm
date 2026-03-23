@@ -49,8 +49,8 @@
 
 /obj/item/clothing/suit/space/pilot/orange
 	name = "civilian pilot space suit"
-	icon_state = "space-pilot-civilian"
-	item_state = "space-pilot-civilian"
+	icon_state = "space-pilot-civvie"
+	item_state = "space-pilot-civvie"
 
 /obj/item/clothing/head/helmet/space/pilot
 	name = "pilot helmet"
