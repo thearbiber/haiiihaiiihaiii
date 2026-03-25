@@ -2139,9 +2139,6 @@
 	},
 /turf/open/floor/engine/hull,
 /area/ship/external/dark)
-"Ae" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/medical)
 "Ah" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
 /obj/effect/turf_decal/trimline/opaque/syndiered/line{
@@ -2804,6 +2801,10 @@
 /obj/item/gun/ballistic/automatic/pistol/himehabu,
 /obj/item/ammo_box/magazine/m22lr_himehabu,
 /obj/item/ammo_box/magazine/m22lr_himehabu,
+/obj/item/clothing/under/cybersun/sneak{
+	pixel_x = 8;
+	pixel_y = -7
+	},
 /turf/open/floor/plasteel/patterned/brushed,
 /area/ship/bridge)
 "Jv" = (
@@ -3415,6 +3416,9 @@
 "PK" = (
 /turf/open/floor/engine/hull,
 /area/ship/external/dark)
+"PT" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ship/medical)
 "PX" = (
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/line{
 	dir = 1
@@ -5089,12 +5093,12 @@ MZ
 bb
 mL
 kD
-Ae
-Ae
+PT
+PT
 Ot
-Ae
-Ae
-Ae
+PT
+PT
+PT
 Mp
 Mp
 Mp
@@ -5112,11 +5116,11 @@ nt
 Mp
 Mp
 Mp
-Ae
+PT
 SR
 TV
 yY
-Ae
+PT
 NO
 Mp
 Mp
@@ -5135,11 +5139,11 @@ nt
 hR
 hR
 hR
-Ae
+PT
 fj
 rW
 bD
-Ae
+PT
 Mp
 Mp
 Mp
@@ -5158,11 +5162,11 @@ nt
 Mp
 Mp
 Mp
-Ae
+PT
 Ye
 lP
 eA
-Ae
+PT
 Mp
 Mp
 Mp
@@ -5181,11 +5185,11 @@ nt
 Mp
 Mp
 Mp
-Ae
+PT
 YW
 Nm
 BG
-Ae
+PT
 Mp
 Mp
 Mp
@@ -5204,10 +5208,10 @@ nt
 Mp
 Mp
 Mp
-Ae
+PT
 LA
 zp
-Ae
+PT
 NO
 Mp
 Mp
@@ -5227,10 +5231,10 @@ nt
 iS
 iS
 iS
-Ae
+PT
 cU
 hg
-Ae
+PT
 Mp
 Mp
 Mp
@@ -5250,9 +5254,9 @@ nt
 Mp
 Mp
 Mp
-Ae
-Ae
-Ae
+PT
+PT
+PT
 NO
 Mp
 Mp
