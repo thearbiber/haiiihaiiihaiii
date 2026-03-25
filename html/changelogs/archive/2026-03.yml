@@ -185,3 +185,9 @@
 2026-03-24:
   thearbiber:
   - rscadd: snouted motorcycle helmets
+2026-03-25:
+  Retrino:
+  - code_imp: Heavily reorganize the hairstyle files
+  - rscdel: A large amount of old hairs, details within PR
+  thearbiber:
+  - rscadd: HOS trenchcoat resprite
