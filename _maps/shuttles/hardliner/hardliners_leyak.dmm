@@ -429,6 +429,9 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
 	dir = 1
 	},
+/obj/item/melee/sledgehammer/gorlex{
+	pixel_x = -4
+	},
 /turf/open/floor/plasteel/dark,
 /area/ship/engineering/engines)
 "dZ" = (
@@ -1982,39 +1985,10 @@
 /turf/open/floor/plating,
 /area/ship/hallway/central)
 "ys" = (
-/obj/item/clothing/under/syndicate/hardliners/jumpsuit{
-	pixel_x = -9;
-	pixel_y = 9
-	},
-/obj/item/clothing/suit/hazardvest/hardliners{
-	pixel_x = 6;
-	pixel_y = 10
-	},
-/obj/item/storage/toolbox/syndicate,
-/obj/item/clothing/gloves/explorer{
-	pixel_y = -8
-	},
-/obj/item/clothing/shoes/workboots,
-/obj/item/clothing/head/hardhat/hardliners{
-	pixel_x = -10;
-	pixel_y = -7
-	},
-/obj/item/radio/headset/alt{
-	pixel_x = 8;
-	pixel_y = -5
-	},
-/obj/item/melee/knife/survival,
-/obj/item/flashlight/seclite,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
 /obj/effect/turf_decal/siding/thinplating{
 	dir = 6
 	},
-/obj/structure/closet/secure_closet/miner{
-	name = "wrecker's equipment"
-	},
-/obj/item/melee/sledgehammer/gorlex{
-	pixel_x = -4
-	},
+/obj/structure/table/reinforced,
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/cargo)
 "yu" = (
@@ -2165,6 +2139,9 @@
 	},
 /turf/open/floor/engine/hull,
 /area/ship/external/dark)
+"Ae" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/ship/medical)
 "Ah" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
 /obj/effect/turf_decal/trimline/opaque/syndiered/line{
@@ -2594,12 +2571,10 @@
 /turf/open/floor/plasteel,
 /area/ship/crew/canteen)
 "Gc" = (
-/obj/structure/chair/plastic{
-	dir = 1
-	},
 /obj/effect/turf_decal/siding/thinplating{
 	dir = 10
 	},
+/obj/structure/table/reinforced,
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/cargo)
 "Gj" = (
@@ -2825,8 +2800,10 @@
 	pixel_x = 1;
 	pixel_y = 4
 	},
-/obj/item/melee/energy/flyssa,
 /obj/item/radio/headset/syndicate/alt/captain/cybersun,
+/obj/item/gun/ballistic/automatic/pistol/himehabu,
+/obj/item/ammo_box/magazine/m22lr_himehabu,
+/obj/item/ammo_box/magazine/m22lr_himehabu,
 /turf/open/floor/plasteel/patterned/brushed,
 /area/ship/bridge)
 "Jv" = (
@@ -3438,9 +3415,6 @@
 "PK" = (
 /turf/open/floor/engine/hull,
 /area/ship/external/dark)
-"PT" = (
-/turf/closed/wall/mineral/titanium/nodiagonal,
-/area/ship/medical)
 "PX" = (
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/line{
 	dir = 1
@@ -5115,12 +5089,12 @@ MZ
 bb
 mL
 kD
-PT
-PT
+Ae
+Ae
 Ot
-PT
-PT
-PT
+Ae
+Ae
+Ae
 Mp
 Mp
 Mp
@@ -5138,11 +5112,11 @@ nt
 Mp
 Mp
 Mp
-PT
+Ae
 SR
 TV
 yY
-PT
+Ae
 NO
 Mp
 Mp
@@ -5161,11 +5135,11 @@ nt
 hR
 hR
 hR
-PT
+Ae
 fj
 rW
 bD
-PT
+Ae
 Mp
 Mp
 Mp
@@ -5184,11 +5158,11 @@ nt
 Mp
 Mp
 Mp
-PT
+Ae
 Ye
 lP
 eA
-PT
+Ae
 Mp
 Mp
 Mp
@@ -5207,11 +5181,11 @@ nt
 Mp
 Mp
 Mp
-PT
+Ae
 YW
 Nm
 BG
-PT
+Ae
 Mp
 Mp
 Mp
@@ -5230,10 +5204,10 @@ nt
 Mp
 Mp
 Mp
-PT
+Ae
 LA
 zp
-PT
+Ae
 NO
 Mp
 Mp
@@ -5253,10 +5227,10 @@ nt
 iS
 iS
 iS
-PT
+Ae
 cU
 hg
-PT
+Ae
 Mp
 Mp
 Mp
@@ -5276,9 +5250,9 @@ nt
 Mp
 Mp
 Mp
-PT
-PT
-PT
+Ae
+Ae
+Ae
 NO
 Mp
 Mp
