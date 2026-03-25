@@ -286,6 +286,10 @@
 	name = "Manime"
 	icon_state = "hair_manime"
 
+/datum/sprite_accessory/hair/messy
+	name = "Messy"
+	icon_state = "hair_messy"
+
 /datum/sprite_accessory/hair/messychop
 	name = "Messy Chop"
 	icon_state = "hair_messychop"
@@ -329,6 +333,10 @@
 /datum/sprite_accessory/hair/parted
 	name = "Parted"
 	icon_state = "hair_parted"
+
+/datum/sprite_accessory/hair/partedlong
+	name = "Parted (Long)"
+	icon_state = "hair_partedlong"
 
 /datum/sprite_accessory/hair/pigtails
 	name = "Pigtails"
