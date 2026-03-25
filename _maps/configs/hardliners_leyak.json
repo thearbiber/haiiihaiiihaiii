@@ -18,6 +18,7 @@
 	"map_path": "_maps/shuttles/hardliner/hardliners_leyak.dmm",
 	"map_id": "hardliners_leyak",
 	"limit": 1,
+	"tranist_y_offset": -11,
 	"starting_funds": 1500,
 	"job_slots": {
 		"Captain": {

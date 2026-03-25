@@ -1188,9 +1188,9 @@
 /area/ship/crew/canteen)
 "nd" = (
 /obj/docking_port/stationary{
-	dwidth = 15;
-	height = 15;
-	width = 30;
+	dwidth = 30;
+	height = 60;
+	width = 60;
 	dir = 2;
 	name = "Leyak Starboard Dock"
 	},
@@ -1499,9 +1499,9 @@
 /area/ship/bridge)
 "rM" = (
 /obj/docking_port/stationary{
-	dwidth = 15;
-	height = 15;
-	width = 30;
+	dwidth = 30;
+	height = 60;
+	width = 60;
 	disable_on_owner_ship_dock = 1;
 	name = "Leyak Port Dock"
 	},
@@ -2247,11 +2247,19 @@
 /turf/open/floor/plasteel/mono/white,
 /area/ship/security)
 "Be" = (
-/obj/effect/turf_decal/siding/black,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 5
+/obj/structure/chair/handrail{
+	dir = 8
 	},
-/turf/open/floor/plasteel/dark,
+/obj/effect/turf_decal/steeldecal/steel_decals9{
+	dir = 4
+	},
+/obj/effect/turf_decal/steeldecal/steel_decals9{
+	dir = 1
+	},
+/obj/machinery/shower{
+	dir = 1
+	},
+/turf/open/floor/plasteel/showroomfloor,
 /area/ship/crew/dorm)
 "Bj" = (
 /obj/structure/chair/bench/red/directional/north,
@@ -3416,19 +3424,11 @@
 /turf/open/floor/engine/hull,
 /area/ship/external/dark)
 "PT" = (
-/obj/structure/chair/handrail{
-	dir = 8
+/obj/effect/turf_decal/siding/black,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 5
 	},
-/obj/effect/turf_decal/steeldecal/steel_decals9{
-	dir = 4
-	},
-/obj/effect/turf_decal/steeldecal/steel_decals9{
-	dir = 1
-	},
-/obj/machinery/shower{
-	dir = 1
-	},
-/turf/open/floor/plasteel/showroomfloor,
+/turf/open/floor/plasteel/dark,
 /area/ship/crew/dorm)
 "PX" = (
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/line{
@@ -4588,7 +4588,7 @@ vx
 vx
 bJ
 xx
-PT
+Be
 vx
 na
 bf
@@ -4655,7 +4655,7 @@ OI
 jO
 vx
 ws
-Be
+PT
 PJ
 vQ
 vx
