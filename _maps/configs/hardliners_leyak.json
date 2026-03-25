@@ -43,10 +43,6 @@
 			"outfit": "/datum/outfit/job/syndicate/engineer/gorlex",
 			"slots": 1
 		},
-		"Wrecker": {
-			"outfit": "/datum/outfit/job/syndicate/miner/gorlex",
-			"slots":1
-		},
 		"Trooper": {
 			"outfit": "/datum/outfit/job/syndicate/security/gorlex",
 			"slots": 2
