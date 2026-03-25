@@ -334,10 +334,6 @@
 	name = "Parted"
 	icon_state = "hair_parted"
 
-/datum/sprite_accessory/hair/partedlong
-	name = "Parted (Long)"
-	icon_state = "hair_partedlong"
-
 /datum/sprite_accessory/hair/pigtails
 	name = "Pigtails"
 	icon_state = "hair_pigtails"
