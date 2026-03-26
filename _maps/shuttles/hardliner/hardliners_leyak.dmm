@@ -2007,6 +2007,10 @@
 	dir = 6
 	},
 /obj/structure/table/reinforced,
+/obj/machinery/recharger{
+	pixel_x = 6;
+	pixel_y = 5
+	},
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/cargo)
 "yu" = (
