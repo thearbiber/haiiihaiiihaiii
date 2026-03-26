@@ -36,7 +36,7 @@
 			"officer": true,
 			"slots": 1
 		},
-		"Medical Doctor": {
+		"Field Medic": {
 			"outfit": "/datum/outfit/job/syndicate/doctor/gorlex",
 			"slots": 1
 		},
