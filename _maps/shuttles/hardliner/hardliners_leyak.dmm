@@ -438,9 +438,6 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
 	dir = 1
 	},
-/obj/item/melee/sledgehammer/gorlex{
-	pixel_x = -4
-	},
 /turf/open/floor/plasteel/dark,
 /area/ship/engineering/engines)
 "dZ" = (
@@ -3044,6 +3041,9 @@
 /obj/item/radio/weather_monitor,
 /obj/item/mining_scanner,
 /obj/item/mining_scanner,
+/obj/item/melee/sledgehammer/gorlex{
+	pixel_x = -4
+	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/cargo)
 "LA" = (
