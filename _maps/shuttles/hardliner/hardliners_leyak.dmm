@@ -2961,6 +2961,7 @@
 	pixel_y = 11
 	},
 /obj/item/radio/headset/syndicate/alt/captain/cybersun,
+/obj/item/clothing/glasses/hud/security/sunglasses/hardliners,
 /turf/open/floor/plasteel/patterned/brushed,
 /area/ship/bridge)
 "Lg" = (
