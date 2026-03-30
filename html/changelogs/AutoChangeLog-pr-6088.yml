@@ -1,6 +1,0 @@
-author: firebudgy
-changes:
-  - {bugfix: Orientations of doors and wallmounts on CentCom.}
-  - {bugfix: Replaces outdated indestructible walls with Anywalls (they're still
-      indestructible.)}
-delete-after: true
