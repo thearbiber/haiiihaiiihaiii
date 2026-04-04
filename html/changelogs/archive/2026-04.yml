@@ -27,3 +27,7 @@
   - rscadd: Add two elzuose horns, twisted and curled
   Thearbiber, Imaginos:
   - rscadd: angle grinder resprite
+2026-04-04:
+  Erikafox:
+  - bugfix: Teagarden whatever is back to being an example sector, rather than being
+      spawnable.
