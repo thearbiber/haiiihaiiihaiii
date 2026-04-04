@@ -328,7 +328,7 @@
 /obj/structure/guncloset,
 /obj/item/gun/ballistic/automatic/pistol/asp/no_mag,
 /obj/item/gun/ballistic/shotgun/automatic/bulldog/no_mag,
-/obj/item/gun/ballistic/automatic/smg/cobra,
+/obj/item/gun/ballistic/automatic/smg/cobra/no_mag,
 /turf/open/floor/plasteel/dark,
 /area/ship/security/armory)
 "cS" = (
@@ -3021,10 +3021,6 @@
 /turf/open/floor/plating,
 /area/ship/cargo)
 "Lp" = (
-/obj/effect/turf_decal/trimline/opaque/syndiered/filled/corner{
-	dir = 4
-	},
-/obj/effect/turf_decal/trimline/opaque/syndiered/filled/corner,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -3036,6 +3032,9 @@
 	},
 /obj/effect/turf_decal/siding/black{
 	dir = 8
+	},
+/obj/effect/turf_decal/stairs{
+	dir = 9
 	},
 /turf/open/floor/plasteel/mono/white,
 /area/ship/hallway/central)
