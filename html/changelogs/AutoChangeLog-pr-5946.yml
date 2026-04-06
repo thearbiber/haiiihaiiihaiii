@@ -1,9 +1,0 @@
-author: Erikafox
-changes:
-  - {rscadd: Outpost cargo now stocks intermediate and advanced chemical vials 
-      for hyposprays!}
-  - {rscadd: you can now buy chem heaters and chemmasters in outpost cargo}
-  - {rscadd: You can now buy hydroponics equipment in cargo}
-  - {rscdel: biogenerator fabrication list trimmed}
-  - {imageadd: small hypospray vial sprite}
-delete-after: true
