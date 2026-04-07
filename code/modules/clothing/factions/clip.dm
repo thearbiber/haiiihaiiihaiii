@@ -264,7 +264,7 @@
 	item_state = "hardsuit0-clipindus"
 	hardsuit_type = "clipindus"
 	resistance_flags = FIRE_PROOF | ACID_PROOF
-	armor = list("melee" = 50, "bullet" = 20, "laser" = 20, "energy" = 30, "bomb" = 65, "bio" = 100, "rad" = 50, "fire" = 80, "acid" = 100, "wound" = 20)
+	armor = list("melee" = 50, "bullet" = 20, "laser" = 20, "energy" = 30, "bomb" = 65, "bio" = 100, "rad" = 80, "fire" = 80, "acid" = 100, "wound" = 20)
 	supports_variations = SNOUTED_VARIATION
 
 /obj/item/clothing/suit/space/hardsuit/mining/clip
