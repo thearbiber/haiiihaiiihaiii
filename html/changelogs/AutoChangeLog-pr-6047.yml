@@ -1,0 +1,6 @@
+author: zimon9
+changes:
+  - {rscdel: Removed layer adapter layer update proc}
+  - {code_imp: changed the layer of atmospherics machines so they layer below 
+      catwalks}
+delete-after: true
