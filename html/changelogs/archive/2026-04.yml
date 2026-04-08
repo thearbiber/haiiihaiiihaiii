@@ -47,3 +47,16 @@
   - imageadd: small hypospray vial sprite
   generalthrax:
   - rscadd: Brought back darker Makosso blue
+2026-04-08:
+  Bumtickley00:
+  - balance: Pancrazine now scales healing with the amount of reagents in your system
+      and gets you drunk.
+  - spellcheck: Removed dylovene mention on cargo screen
+  Yule & Addust:
+  - rscadd: Added the Puru-Rangi-class auxiliary response vessel
+  thearbiber:
+  - rscadd: various leyak adjustments
+  - rscdel: wrecker on leyak
+  zimon9:
+  - rscdel: Removed layer adapter layer update proc
+  - code_imp: changed the layer of atmospherics machines so they layer below catwalks

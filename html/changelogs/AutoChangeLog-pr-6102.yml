@@ -1,6 +1,0 @@
-author: Bumtickley00
-changes:
-  - {balance: Pancrazine now scales healing with the amount of reagents in your 
-      system and gets you drunk.}
-  - {spellcheck: Removed dylovene mention on cargo screen}
-delete-after: true
