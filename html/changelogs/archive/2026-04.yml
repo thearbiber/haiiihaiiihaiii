@@ -60,3 +60,13 @@
   zimon9:
   - rscdel: Removed layer adapter layer update proc
   - code_imp: changed the layer of atmospherics machines so they layer below catwalks
+2026-04-09:
+  DIB-DOG:
+  - rscadd: Added sharplite plus cells to the black market
+  - balance: rebalanced energy cell prices
+  Erikafox:
+  - bugfix: pilot jacket toggletext
+  stiel:
+  - rscadd: Brass knuckles! New melee item in cargo.
+  thearbiber:
+  - bugfix: Whitereds back in cargo
