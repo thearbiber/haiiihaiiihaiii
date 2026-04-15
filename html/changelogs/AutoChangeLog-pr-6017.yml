@@ -1,0 +1,6 @@
+author: Gristlebee
+changes:
+  - {rscadd: Explosions can now be given specific damage values.}
+  - {balance: Explosion damage numbers}
+  - {balance: Ramzi Demo has light rockets.}
+delete-after: true
