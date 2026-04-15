@@ -1,0 +1,5 @@
+author: PhoenixTheRedandEvil
+changes:
+  - {rscadd: 'Changes AI_BEHAVIOR_INSTANT in if(!can_see(basic_mob, final_target,
+      required_distance)) to AI_BEHAVIOR_DELAY'}
+delete-after: true
