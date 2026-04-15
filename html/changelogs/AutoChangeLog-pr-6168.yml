@@ -1,0 +1,4 @@
+author: generalthrax
+changes:
+  - {bugfix: you can use ooc again}
+delete-after: true
