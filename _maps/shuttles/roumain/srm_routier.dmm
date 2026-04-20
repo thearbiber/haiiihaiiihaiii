@@ -225,7 +225,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/computer/helm/viewscreen/directional/east,
-/turf/open/floor/plasteel/patterned/external,
+/turf/open/floor/plasteel/patterned,
 /area/ship/cargo)
 "cr" = (
 /obj/effect/turf_decal/siding/wood{
@@ -648,7 +648,7 @@
 	dir = 10
 	},
 /obj/machinery/light/directional/south,
-/turf/open/floor/plasteel/patterned/external,
+/turf/open/floor/plasteel/patterned,
 /area/ship/cargo)
 "hf" = (
 /obj/structure/window/reinforced/fulltile,
@@ -782,7 +782,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 10
 	},
-/turf/open/floor/plasteel/patterned/external,
+/turf/open/floor/plasteel/patterned,
 /area/ship/cargo)
 "jc" = (
 /turf/closed/wall,
@@ -1253,7 +1253,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/turf/open/floor/plasteel/patterned/external,
+/turf/open/floor/plasteel/patterned,
 /area/ship/cargo)
 "nM" = (
 /obj/item/kirbyplants{
@@ -1343,7 +1343,7 @@
 	dir = 8;
 	id = "routholo"
 	},
-/turf/open/floor/plasteel/patterned/external,
+/turf/open/floor/plasteel/patterned,
 /area/ship/cargo)
 "ox" = (
 /obj/structure/table/wood/reinforced,
@@ -1463,7 +1463,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 8
 	},
-/turf/open/floor/plasteel/patterned/external,
+/turf/open/floor/plasteel/patterned,
 /area/ship/cargo)
 "qD" = (
 /obj/effect/turf_decal/siding/wood{
@@ -1514,7 +1514,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/item/radio/intercom/directional/east,
-/turf/open/floor/plasteel/patterned/external,
+/turf/open/floor/plasteel/patterned,
 /area/ship/cargo)
 "rx" = (
 /obj/effect/turf_decal/corner/transparent/bar{
@@ -1815,7 +1815,7 @@
 	pixel_x = 10;
 	pixel_y = 22
 	},
-/turf/open/floor/plasteel/patterned/external,
+/turf/open/floor/plasteel/patterned,
 /area/ship/cargo)
 "tx" = (
 /obj/effect/turf_decal/siding/white{
@@ -1825,7 +1825,7 @@
 	icon_state = "4-8"
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plasteel/patterned/external,
+/turf/open/floor/plasteel/patterned,
 /area/ship/cargo)
 "tE" = (
 /obj/machinery/holopad/emergency/command,
@@ -2305,7 +2305,7 @@
 	dir = 9
 	},
 /obj/machinery/light/directional/north,
-/turf/open/floor/plasteel/patterned/external,
+/turf/open/floor/plasteel/patterned,
 /area/ship/cargo)
 "zc" = (
 /obj/structure/closet/secure_closet/cabinet{
@@ -2707,7 +2707,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 4
 	},
-/turf/open/floor/plasteel/patterned/external,
+/turf/open/floor/plasteel/patterned,
 /area/ship/cargo)
 "BK" = (
 /obj/machinery/atmospherics/pipe/simple/orange/hidden{
@@ -3145,7 +3145,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/turf/open/floor/plasteel/patterned/external,
+/turf/open/floor/plasteel/patterned,
 /area/ship/cargo)
 "FS" = (
 /obj/machinery/portable_atmospherics/canister/air,
@@ -3511,7 +3511,7 @@
 	dir = 4
 	},
 /obj/structure/closet/emcloset/wall/directional/north,
-/turf/open/floor/plasteel/patterned/external,
+/turf/open/floor/plasteel/patterned,
 /area/ship/cargo)
 "Ky" = (
 /obj/effect/turf_decal/corner/transparent/grey{
@@ -3822,7 +3822,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 4
 	},
-/turf/open/floor/plasteel/patterned/external,
+/turf/open/floor/plasteel/patterned,
 /area/ship/cargo)
 "NC" = (
 /obj/effect/turf_decal/siding/wood/corner{
@@ -4166,7 +4166,7 @@
 	dir = 4
 	},
 /obj/machinery/airalarm/directional/south,
-/turf/open/floor/plasteel/patterned/external,
+/turf/open/floor/plasteel/patterned,
 /area/ship/cargo)
 "QS" = (
 /obj/structure/cable/orange{
@@ -4207,7 +4207,7 @@
 	id = "routholo"
 	},
 /obj/effect/decal/cleanable/oil/streak,
-/turf/open/floor/plasteel/patterned/external,
+/turf/open/floor/plasteel/patterned,
 /area/ship/cargo)
 "Rf" = (
 /turf/open/floor/grass/ship/jungle,
@@ -4424,7 +4424,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 9
 	},
-/turf/open/floor/plasteel/patterned/external,
+/turf/open/floor/plasteel/patterned,
 /area/ship/cargo)
 "TY" = (
 /obj/machinery/atmospherics/pipe/simple/orange/hidden,
@@ -4442,7 +4442,7 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
 	dir = 8
 	},
-/turf/open/floor/plasteel/patterned/external,
+/turf/open/floor/plasteel/patterned,
 /area/ship/cargo)
 "Ui" = (
 /turf/closed/wall,
