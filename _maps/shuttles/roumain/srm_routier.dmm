@@ -327,7 +327,6 @@
 	pixel_x = -2;
 	pixel_y = 7
 	},
-/obj/item/gun/ballistic/automatic/smg/firestorm,
 /obj/item/gun/ballistic/revolver/shadow/empty,
 /obj/item/gun/ballistic/shotgun/brimstone/empty,
 /obj/effect/turf_decal/box/red/corners{
@@ -342,6 +341,7 @@
 	dir = 8
 	},
 /obj/machinery/light/small/directional/north,
+/obj/item/gun/ballistic/automatic/smg/firestorm/no_mag,
 /turf/open/floor/plasteel/tech,
 /area/ship/storage/equip)
 "dN" = (
