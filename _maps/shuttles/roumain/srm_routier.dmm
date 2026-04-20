@@ -842,10 +842,6 @@
 /obj/item/clothing/shoes/combat,
 /obj/item/clothing/under/suit/roumain,
 /obj/item/flashlight/lantern,
-/obj/item/storage/fancy/candle_box{
-	pixel_y = 3;
-	pixel_x = 8
-	},
 /obj/item/lighter{
 	pixel_x = -2;
 	pixel_y = 2
@@ -2607,10 +2603,6 @@
 /obj/item/clothing/suit/armor/roumain/montagne,
 /obj/item/clothing/head/cowboy/sec/roumain/montagne,
 /obj/item/flashlight/lantern,
-/obj/item/storage/fancy/candle_box{
-	pixel_y = 3;
-	pixel_x = 8
-	},
 /obj/item/lighter{
 	pixel_x = -2;
 	pixel_y = 2
