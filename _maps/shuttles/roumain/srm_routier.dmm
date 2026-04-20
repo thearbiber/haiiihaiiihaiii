@@ -2646,6 +2646,12 @@
 	pixel_x = 10;
 	pixel_y = 22
 	},
+/obj/machinery/button/door{
+	pixel_x = -3;
+	pixel_y = 23;
+	id = "routstar";
+	name = "engine shutters"
+	},
 /turf/open/floor/plating,
 /area/ship/engineering/engines/starboard)
 "Bi" = (
@@ -4837,6 +4843,12 @@
 /obj/machinery/power/apc/auto_name/directional/east,
 /obj/structure/cable/orange{
 	icon_state = "0-2"
+	},
+/obj/machinery/button/door{
+	pixel_x = -3;
+	pixel_y = 23;
+	id = "routport";
+	name = "engine shutters"
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/engines/port)
