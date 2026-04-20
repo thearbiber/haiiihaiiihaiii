@@ -1,0 +1,49 @@
+{
+	"$schema": "https://raw.githubusercontent.com/shiptest-ss13/Shiptest/master/_maps/ship_config_schema.json",
+	"map_name": "Routier-class Privateer",
+	"faction": "/datum/faction/srm",
+	"prefix": "SRSV",
+	"manufacturer": "Ihejirika Civ. Manufacturing",
+	"namelists": [
+		"SAINT-ROUMAIN",
+		"BEASTS"
+	],
+	"map_short_name": "Routier-class",
+	"map_path": "_maps/shuttles/roumain/srm_routier.dmm",
+	"description": "One of the few vessels of the SRM dedicated to armed combat, the Routier-class is made to mix transport and livelihood. While somewhat lacking in self sufficiency compared to other Roumain vessels, it is still capable of sustaining its moderate crew of eight. These vessels are typically seen on more deliberate mercenary contracts, requiring a trained hunter complement to deal with foe or fauna.",
+	"tags": [
+		"Combat",
+		"Mining"
+	],
+	"map_id": "srm_routier",
+	"limit": 1,
+	"job_slots": {
+		"Hunter Montagne": {
+			"outfit": "/datum/outfit/job/roumain/captain/empty",
+			"officer": true,
+			"slots": 1
+		},
+		"Hunter Colligne": {
+			"outfit": "/datum/outfit/job/roumain/hop/empty",
+			"officer": true,
+			"slots": 1
+		},
+		"Hunter": {
+			"outfit": "/datum/outfit/job/roumain/security/empty",
+			"slots": 2
+		},
+		"Hunter Doctor": {
+			"outfit": "/datum/outfit/job/roumain/doctor/empty",
+			"slots": 1
+		},
+		"Machinist": {
+			"outfit": "/datum/outfit/job/roumain/engineer/empty",
+			"slots": 1
+		},
+		"Shadow": {
+			"outfit": "/datum/outfit/job/roumain/assistant/empty",
+			"slots": 2
+		}
+	},
+	"enabled": true
+}
