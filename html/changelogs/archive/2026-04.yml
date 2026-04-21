@@ -103,3 +103,6 @@
 2026-04-17:
   Erikafox:
   - rscadd: Thousand Eyes is now occasionally assailed by massive clouds of fog
+2026-04-20:
+  Gristlebee:
+  - bugfix: Cell explosion damage calculation
