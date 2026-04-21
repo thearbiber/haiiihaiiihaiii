@@ -1,0 +1,4 @@
+author: Bumtickley00
+changes:
+  - {rscadd: Adds .22 LR surplus ammo to the autolathe.}
+delete-after: true
