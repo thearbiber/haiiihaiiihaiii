@@ -467,7 +467,7 @@ NO_MAG_GUN_HELPER(automatic/marksman/f4/inteq)
 	icon_state = "f90_mag-1"
 	ammo_type = /obj/item/ammo_casing/a65clip
 	caliber = "6.5mm CLIP"
-	max_ammo = 5
+	max_ammo = 7
 
 /obj/item/ammo_box/magazine/f90/update_icon_state()
 	. = ..()

@@ -22,6 +22,10 @@
 /obj/item/ammo_box/magazine/internal/shot/lethal
 	ammo_type = /obj/item/ammo_casing/shotgun/buckshot
 
+/obj/item/ammo_box/magazine/internal/shot/brimstone
+	ammo_type = /obj/item/ammo_casing/shotgun/buckshot
+	max_ammo = 5
+
 /obj/item/ammo_box/magazine/internal/shot/dual
 	name = "double-barrel shotgun internal magazine"
 	max_ammo = 2
