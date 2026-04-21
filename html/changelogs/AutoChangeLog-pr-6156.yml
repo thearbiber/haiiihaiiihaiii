@@ -1,0 +1,4 @@
+author: Addust
+changes:
+  - {rscadd: The tgui crash screen is now slightly more lore-accurate. Slightly.}
+delete-after: true
