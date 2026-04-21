@@ -19,9 +19,6 @@
 	max_ammo = 5
 	start_empty = TRUE
 
-/obj/item/ammo_box/magazine/internal/shot/lethal
-	ammo_type = /obj/item/ammo_casing/shotgun/buckshot
-
 /obj/item/ammo_box/magazine/internal/shot/brimstone
 	ammo_type = /obj/item/ammo_casing/shotgun/buckshot
 	max_ammo = 5
