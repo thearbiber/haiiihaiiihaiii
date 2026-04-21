@@ -1,0 +1,9 @@
+author: Addust
+changes:
+  - {rscadd: ICW-era corporate resorts owned by Makosso-Warra have been detected
+      on several beach worlds throughout the sector. Ramzi Clique activity is 
+      suspected; we advise approaching with caution.}
+  - {rscdel: 'The last of the highly dangerous, ancient Cybersun cryo-stasis bunkers
+      on record appears to have been destroyed by a Makosso-Warra hydrogen tanker
+      experiencing an unrequested combustion surplus. Woops!'}
+delete-after: true
