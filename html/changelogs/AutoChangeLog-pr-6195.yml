@@ -1,0 +1,5 @@
+author: FalloutFalcon
+changes:
+  - {code_imp: Fixes a few assorted issues (mainly list related) that causes the
+      language client to yap}
+delete-after: true
