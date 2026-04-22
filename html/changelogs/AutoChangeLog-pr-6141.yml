@@ -1,5 +1,0 @@
-author: Gristlebee
-changes:
-  - {rscdel: Old underbarrel code}
-  - {bugfix: Main/underbarrel guns safeties desyncing}
-delete-after: true

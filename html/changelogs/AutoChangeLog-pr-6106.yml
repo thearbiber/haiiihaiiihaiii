@@ -1,6 +1,0 @@
-author: SkyClearingFowl
-changes:
-  - {rscadd: 'more ingredients to cargo, tweaked the description of the listing for
-      sugar'}
-  - {rscdel: gambling for ingredients}
-delete-after: true

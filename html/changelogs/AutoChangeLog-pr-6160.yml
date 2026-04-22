@@ -1,5 +1,0 @@
-author: firebudgy
-changes:
-  - {balance: Explicitly civilian CLIP vessels now have a slightly reduced 
-      market of military firepower.}
-delete-after: true
