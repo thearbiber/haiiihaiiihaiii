@@ -127,3 +127,9 @@
   firebudgy:
   - balance: Explicitly civilian CLIP vessels now have a slightly reduced market of
       military firepower.
+2026-04-23:
+  FalloutFalcon:
+  - code_imp: Fixes a few assorted issues (mainly list related) that causes the language
+      client to yap
+  PhoenixTheRedandEvil:
+  - rscadd: Addeds the Bockadam Automatic Shotgun
