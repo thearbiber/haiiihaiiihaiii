@@ -441,7 +441,7 @@ NO_MAG_GUN_HELPER(automatic/marksman/f4/inteq)
 	manufacturer = MANUFACTURER_MINUTEMAN
 	spread = -5
 	spread_unwielded = 35
-	recoil = 0.8
+	recoil = 1
 	recoil_unwielded = 5
 	wield_slowdown = LIGHT_SNIPER_SLOWDOWN
 	wield_delay = 1.3 SECONDS
