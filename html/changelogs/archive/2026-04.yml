@@ -150,3 +150,11 @@
   - rscadd: bayonet resprite
   zimon9:
   - bugfix: fixed squirt cider recipe
+2026-04-25:
+  Erikafox:
+  - rscadd: Health scanners now have a surgical scan mode, allowing you to see which
+      step of a surgery is next.
+  - balance: You can only take 1 high priority mission from the outpost at a time
+  - balance: High priority missions pay out more now.
+  firebudgy:
+  - balance: Odysseus removed from cargo.
