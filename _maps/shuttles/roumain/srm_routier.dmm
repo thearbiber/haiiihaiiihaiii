@@ -428,7 +428,6 @@
 "eC" = (
 /obj/item/clothing/under/suit/roumain,
 /obj/item/clothing/under/suit/roumain,
-/obj/item/clothing/under/suit/roumain,
 /obj/item/clothing/shoes/workboots,
 /obj/item/clothing/shoes/workboots,
 /obj/item/clothing/shoes/cowboy,
@@ -443,7 +442,6 @@
 	pixel_x = 0;
 	pixel_y = 1
 	},
-/obj/item/clothing/under/suit/roumain/alt,
 /obj/item/clothing/under/suit/roumain/alt,
 /obj/item/clothing/under/suit/roumain/alt,
 /obj/item/clothing/accessory/waistcoat/roumain{
@@ -774,6 +772,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
+	},
+/obj/structure/cable/orange{
+	icon_state = "2-8"
 	},
 /turf/open/floor/suns/diagonal/birch,
 /area/ship/crew/dorm)
@@ -1164,10 +1165,6 @@
 	auto_scatter = 0
 	},
 /obj/machinery/light/small/directional/west,
-/obj/machinery/power/apc/auto_name/directional/north,
-/obj/structure/cable/orange{
-	icon_state = "0-4"
-	},
 /obj/item/hatchet/wooden{
 	pixel_x = -7;
 	pixel_y = -7
@@ -1223,9 +1220,6 @@
 /area/ship/crew/dorm)
 "nx" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
-/obj/structure/railing{
-	dir = 8
-	},
 /obj/machinery/power/port_gen/pacman/super{
 	anchored = 1
 	},
@@ -1273,6 +1267,8 @@
 	pixel_x = 20;
 	pixel_y = 12
 	},
+/obj/structure/cable/orange,
+/obj/machinery/power/apc/auto_name/directional/east,
 /turf/open/floor/wood/walnut,
 /area/ship/crew/dorm)
 "nO" = (
@@ -1545,8 +1541,8 @@
 	dir = 4
 	},
 /obj/structure/filingcabinet/filingcabinet{
-	dir = 8;
-	pixel_x = 11;
+	dir = 1;
+	pixel_x = 12;
 	density = 0;
 	name = "kitchen cabinet";
 	pixel_y = 0
@@ -1611,7 +1607,6 @@
 "sc" = (
 /obj/item/clothing/under/suit/roumain,
 /obj/item/clothing/under/suit/roumain,
-/obj/item/clothing/under/suit/roumain,
 /obj/item/clothing/shoes/workboots,
 /obj/item/clothing/shoes/workboots,
 /obj/item/clothing/shoes/cowboy,
@@ -1629,7 +1624,6 @@
 	pixel_x = 0;
 	pixel_y = 1
 	},
-/obj/item/clothing/under/suit/roumain/alt,
 /obj/item/clothing/under/suit/roumain/alt,
 /obj/item/clothing/under/suit/roumain/alt,
 /obj/item/clothing/accessory/waistcoat/brown{
@@ -1836,9 +1830,9 @@
 /turf/open/floor/grass/ship/jungle/yellow,
 /area/ship/roumain)
 "tW" = (
-/obj/structure/reagent_dispensers/fueltank,
 /obj/effect/turf_decal/box/red,
 /obj/machinery/atmospherics/pipe/layer_manifold,
+/obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering)
 "ul" = (
@@ -1951,7 +1945,28 @@
 /area/ship/engineering/hallway/port)
 "vu" = (
 /obj/machinery/door/window,
-/obj/item/soap/homemade,
+/obj/item/soap/deluxe{
+	pixel_y = 8
+	},
+/obj/structure/closet/wall/directional/west{
+	name = "shower cabinet"
+	},
+/obj/item/towel{
+	pixel_x = -10;
+	pixel_y = 0
+	},
+/obj/item/towel{
+	pixel_x = 3;
+	pixel_y = 0
+	},
+/obj/item/mop{
+	pixel_x = -9;
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/glass/bucket/wooden{
+	pixel_x = -6;
+	pixel_y = -2
+	},
 /turf/open/floor/suns/plain,
 /area/ship/crew/toilet)
 "vv" = (
@@ -2364,6 +2379,14 @@
 	},
 /obj/machinery/light/small/directional/west,
 /obj/item/storage/box/syringes,
+/obj/item/roller{
+	pixel_x = -11;
+	pixel_y = -3
+	},
+/obj/item/roller{
+	pixel_x = -9;
+	pixel_y = 4
+	},
 /turf/open/floor/plasteel/lightgrey,
 /area/ship/medical)
 "zk" = (
@@ -2943,6 +2966,7 @@
 /obj/item/pen,
 /obj/item/pen/charcoal,
 /obj/item/pen/charcoal,
+/obj/item/clipboard,
 /turf/open/floor/plasteel/tech,
 /area/ship/bridge)
 "Ej" = (
@@ -3082,7 +3106,6 @@
 /turf/open/floor/suns/diagonal/walnut,
 /area/ship/storage)
 "Fq" = (
-/obj/structure/reagent_dispensers/watertank,
 /obj/effect/turf_decal/box/red,
 /obj/machinery/atmospherics/pipe/layer_manifold,
 /turf/open/floor/plasteel/tech,
@@ -3090,9 +3113,6 @@
 "Fr" = (
 /obj/machinery/power/smes/engineering,
 /obj/effect/turf_decal/trimline/opaque/orange/filled,
-/obj/structure/railing{
-	dir = 8
-	},
 /obj/structure/cable/orange{
 	icon_state = "0-8"
 	},
@@ -3177,9 +3197,6 @@
 	desc = "A small metal rod used to stir up fireplaces. This one is adorned with ornate golden filigree";
 	pixel_x = 12;
 	pixel_y = 2
-	},
-/obj/structure/cable/orange{
-	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/crew/dorm)
@@ -3360,10 +3377,6 @@
 /turf/open/floor/plasteel/patterned/grid/dark,
 /area/ship/cargo)
 "IM" = (
-/obj/structure/crate_shelf/built{
-	capacity = 2
-	},
-/obj/structure/closet/crate/freezer,
 /obj/item/reagent_containers/condiment/enzyme,
 /obj/item/food/bread/plain{
 	pixel_x = 7;
@@ -3421,6 +3434,9 @@
 	pixel_x = -3;
 	pixel_y = 6
 	},
+/obj/structure/closet/secure_closet/freezer/fridge{
+	populate = 0
+	},
 /turf/open/floor/plasteel/tech,
 /area/ship/crew/canteen)
 "Jb" = (
@@ -3453,9 +3469,6 @@
 	color = "#543C30";
 	dir = 4
 	},
-/obj/structure/cable/orange{
-	icon_state = "4-8"
-	},
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/plasteel/tech,
 /area/ship/crew/dorm)
@@ -3473,7 +3486,7 @@
 /obj/machinery/door/poddoor/shutters{
 	id = "routwindow"
 	},
-/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer5,
+/obj/machinery/atmospherics/pipe/layer_manifold,
 /turf/open/floor/plating,
 /area/ship/crew/canteen)
 "JK" = (
@@ -3559,7 +3572,7 @@
 /area/ship/roumain)
 "KN" = (
 /obj/structure/fermenting_barrel,
-/turf/open/floor/ship/dirt/dark,
+/turf/open/floor/grass/ship/jungle,
 /area/ship/roumain)
 "KQ" = (
 /obj/structure/table/wood/reinforced,
@@ -3700,9 +3713,6 @@
 /obj/machinery/power/port_gen/pacman{
 	anchored = 1
 	},
-/obj/structure/railing{
-	dir = 8
-	},
 /obj/structure/cable/green{
 	icon_state = "0-2"
 	},
@@ -3756,22 +3766,21 @@
 /area/ship/roumain)
 "MV" = (
 /obj/structure/table/wood/reinforced,
-/obj/machinery/emergency_panel{
-	pixel_y = 3;
-	pixel_x = -14
-	},
-/obj/item/clothing/mask/cigarette/pipe{
-	pixel_x = 8;
-	pixel_y = -1
-	},
-/obj/item/storage/box/matches{
-	pixel_y = 15;
-	pixel_x = 0
-	},
 /obj/machinery/light/small/directional/north,
 /obj/effect/turf_decal/box/red/corners,
 /obj/effect/turf_decal/box/red/corners{
 	dir = 4
+	},
+/obj/item/wallframe/intercom/table{
+	pixel_x = 6;
+	pixel_y = 2;
+	dir = 1
+	},
+/obj/item/radio/intercom/wideband/table{
+	pixel_x = -12;
+	pixel_y = 2;
+	layer = 2.9;
+	dir = 1
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/bridge)
@@ -3810,6 +3819,8 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/layer_manifold,
+/obj/item/clothing/head/helmet/space/eva,
+/obj/item/clothing/suit/space/eva,
 /turf/open/floor/plasteel/tech,
 /area/ship/hallway/central)
 "Nx" = (
@@ -4009,12 +4020,6 @@
 /area/ship/storage/equip)
 "Pu" = (
 /obj/structure/table/wood/reinforced,
-/obj/item/radio/intercom/wideband/table{
-	pixel_x = 1;
-	pixel_y = 2;
-	layer = 2.9;
-	dir = 1
-	},
 /obj/machinery/button/door{
 	pixel_x = 10;
 	pixel_y = 23;
@@ -4026,6 +4031,18 @@
 	pixel_y = 23;
 	id = "routwindow";
 	name = "exterior windows"
+	},
+/obj/machinery/emergency_panel{
+	pixel_y = 7;
+	pixel_x = -6
+	},
+/obj/item/storage/box/matches{
+	pixel_y = 19;
+	pixel_x = -2
+	},
+/obj/item/clothing/mask/cigarette/pipe{
+	pixel_x = 6;
+	pixel_y = -1
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/bridge)
@@ -4137,9 +4154,6 @@
 "Qi" = (
 /obj/machinery/power/terminal,
 /obj/structure/catwalk/over/plated_catwalk/dark,
-/obj/structure/railing{
-	dir = 8
-	},
 /obj/structure/cable/green,
 /turf/open/floor/plating,
 /area/ship/engineering)
@@ -4247,9 +4261,6 @@
 /turf/open/floor/carpet/green,
 /area/ship/crew/canteen)
 "RI" = (
-/obj/structure/cable/orange{
-	icon_state = "1-8"
-	},
 /obj/structure/cable/orange{
 	icon_state = "1-2"
 	},
@@ -4850,6 +4861,7 @@
 	id = "routport";
 	name = "engine shutters"
 	},
+/obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/plating,
 /area/ship/engineering/engines/port)
 "Ys" = (
@@ -4910,7 +4922,7 @@
 /turf/open/floor/plasteel/tech,
 /area/ship/crew/cryo)
 "Zn" = (
-/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer5{
+/obj/machinery/atmospherics/pipe/simple/dark/hidden{
 	dir = 6
 	},
 /turf/open/floor/engine/hull,
@@ -4992,8 +5004,7 @@
 /area/ship/roumain)
 "ZW" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/on{
-	dir = 8;
-	piping_layer = 5
+	dir = 8
 	},
 /turf/open/floor/engine/hull,
 /area/ship/external/dark)
@@ -5549,7 +5560,7 @@ If
 If
 DE
 yx
-Rf
+KN
 QI
 ma
 oX
@@ -5627,7 +5638,7 @@ If
 If
 If
 yx
-KN
+QI
 Pw
 Cq
 bj
