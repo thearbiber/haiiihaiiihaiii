@@ -490,6 +490,10 @@
 	name = "Stride"
 	icon_state = "hair_stride"
 
+/datum/sprite_accessory/hair/sweptback
+	name = "Swept Back"
+	icon_state = "hair_sweptback"
+
 /datum/sprite_accessory/hair/thinning
 	name = "Thinning"
 	icon_state = "hair_thinning"
