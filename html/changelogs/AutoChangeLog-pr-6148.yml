@@ -1,0 +1,6 @@
+author: PhoenixTheRedandEvil
+changes:
+  - {rscadd: 'New Jungle Ruin: Frontiersmen-Occupied Big Hole'}
+  - {rscadd: An Admin-Spawn only version of Big Hole that is pristine & enemy 
+      free}
+delete-after: true
