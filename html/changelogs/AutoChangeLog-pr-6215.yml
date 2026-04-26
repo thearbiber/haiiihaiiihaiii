@@ -1,0 +1,5 @@
+author: generalthrax
+changes:
+  - {balance: Adjusted MK III Hypospray Cargo Vials to be slightly more 
+      performant}
+delete-after: true
