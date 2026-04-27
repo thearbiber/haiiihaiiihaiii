@@ -1,5 +1,0 @@
-author: thearbiber
-changes:
-  - {balance: buffs the f90 and brimstone}
-  - {balance: reverts accidental boomslang buff and fixes the modelH}
-delete-after: true
