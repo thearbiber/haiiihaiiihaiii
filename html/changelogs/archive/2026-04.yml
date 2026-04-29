@@ -171,3 +171,7 @@
   thearbiber:
   - balance: buffs the f90 and brimstone
   - balance: reverts accidental boomslang buff and fixes the modelH
+2026-04-29:
+  thearbiber:
+  - rscadd: sports bag
+  - rscadd: 4 hair sprites
