@@ -80,15 +80,16 @@
 	lefthand_file = 'icons/mob/inhands/equipment/hydroponics_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/hydroponics_righthand.dmi'
 	flags_1 = CONDUCT_1
-	force = 12
-	w_class = WEIGHT_CLASS_SMALL
-	throwforce = 15
+	force = 18
+	w_class = WEIGHT_CLASS_NORMAL
+	throwforce = 18
 	throw_speed = 3
 	throw_range = 4
 	custom_materials = list(/datum/material/iron = 15000)
 	attack_verb = list("chopped", "torn", "cut")
 	hitsound = 'sound/weapons/bladeslice.ogg'
 	sharpness = SHARP_EDGED
+	armour_penetration = 10
 
 /obj/item/hatchet/Initialize()
 	. = ..()
