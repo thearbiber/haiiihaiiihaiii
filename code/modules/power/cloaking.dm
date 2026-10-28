@@ -10,9 +10,9 @@
 	active_power_usage = WATTS_PER_TURF
 	circuit = /obj/item/circuitboard/machine/cloak
 
-	icon = 'icons/obj/machines/bsm.dmi'
-	icon_state = "bsm_idle"
-	base_icon_state = "bsm"
+	icon = 'icons/obj/machines/ship_cloak.dmi'
+	icon_state = "cloakdrive_idle"
+	base_icon_state = "cloakdrive"
 
 	/// Whether the cloaking device is active
 	var/cloak_active = FALSE
